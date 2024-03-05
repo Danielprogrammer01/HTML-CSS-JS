@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(rgb(201, 0, 0),black,red);
+}
+
+h1{
+    background-color: black; 
+    width: 80%; 
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: Chinese Rocks;
+    text-align: center;
+
+}
+
+hr{
+    
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 5px;
+
+}
+
+p{
+    color:white;
+    width: 80%;
+    margin: auto;
+ 
+}
+
+img{
+    width: 350px;
+    height: 200px;
+
+}
+
+.images{
+    width: fit-content;
+    margin: auto;
+}
+
+#video{
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
