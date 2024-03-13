@@ -1,0 +1,59 @@
+body{
+
+    height: 100vh;
+    background: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.painel{
+
+    background-color: white;
+    width: 800px;
+    height: 680px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.painel h1{
+
+    font-size: 20px;
+
+}
+.painel img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+}
+
+.painel button{
+
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
