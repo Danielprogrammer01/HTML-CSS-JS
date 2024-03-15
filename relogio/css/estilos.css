@@ -1,5 +1,5 @@
 body{
-    background: url('/images/ligadajustica.jpg');
+    background: url('/images/marvel.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -8,6 +8,46 @@ body{
     align-items: center;
 }
 
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.principal img{
+    height: 125px;
+}
+
+.saudacao{
+    width: 225px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.647);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.saudacao span{
+    
+    font-size: 40px;
+}
+
+.data{
+
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    background: rgba(255, 255, 255, 0.647);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 .central{
     width: 400px;
     height: 150px;
@@ -18,22 +58,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.central div{
+.central .numero{
     width: 120px;
     height: 120px;
     background: rgb(0, 0, 0);
     color: white;
     font-size: 80px;
-    border-radius: 60px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.central span{
+.central .texto{
+    font-size: 25px;
+}
+
+.central .bloco1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.central .bloco2{
     font-size: 80px;
-
 }
-
