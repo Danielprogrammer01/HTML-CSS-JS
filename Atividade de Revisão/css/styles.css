@@ -1,0 +1,133 @@
+body{
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.relogio{
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60px;
+    width: 200px;
+    box-shadow: 3px 3px 8px black;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 10px;
+
+}
+
+.titulo-relogio{
+    font-size: 30px;
+}
+
+.horario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.horario span{
+    font-size: 50px;
+}
+
+.horario .tempo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.tema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 150px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#claro{
+
+    height: 100px;
+    width: 100px;
+}
+
+#escuro{
+    height: 60px;
+    width: 60px;
+}
+
+.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: darkblue;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    color: white;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 8px black;
+}
+
+#titulo-calculadora{
+    font-size: 30px;
+}
+
+.calculadora div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculadora input{
+    width: 200px;
+    height: 20px;
+}
+
+.imagem img{
+    height: 300px;
+    width: 300px;
+}
+
+.magro{
+    background: url(/files/imc-baixo.jpg);
+
+}
+
+.malhado{
+    background: url(/files/imc-ideal.avif);
+}
+
+.gordo{
+    background: url(/files/imc-alto.webp);
+}
+
+.claro{
+    background: linear-gradient(yellow, orange)
+}
+
+.escuro{
+    background: linear-gradient(darkblue, black)
+}
