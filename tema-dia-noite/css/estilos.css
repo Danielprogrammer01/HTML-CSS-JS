@@ -1,0 +1,36 @@
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+
+}
+
+.principal{
+
+    display: flex;
+    align-items: center;
+
+}
+
+#sol{
+    height: 120px;
+    width: 120px;
+}
+
+img{
+   
+    height: 100px;
+    width: 100px;
+}
+
+.dia{
+
+    background: linear-gradient(cyan,red);
+}
+
+.noite{
+
+    background: linear-gradient(darkblue,black);
+}

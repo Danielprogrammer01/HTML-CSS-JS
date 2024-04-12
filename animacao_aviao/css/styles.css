@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background: url(/files/fundo.jpg);
+    background-size: cover;
+}
+
+#aviao{
+
+    position: absolute;
+    top: 400px;
+    left: 0;
+    animation: pilotagem 2s ease-in infinite;
+
+}
+
+@keyframes pilotagem{
+
+    0%{
+        top: 400px;
+        left: 0;
+    }
+    
+    100%{
+        top: 0;
+        left: 800px;
+    }
+}

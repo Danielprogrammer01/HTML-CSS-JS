@@ -1,0 +1,35 @@
+body{
+    background: url(/files/chao.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    gap: 50px;
+  
+}
+
+#carro{
+    
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background: url(/files/carro.webp);
+    background-size: cover;
+    top: 210px;
+    left: 0px;
+    animation-name: dirigir;
+    animation-duration: 2s;
+}
+
+#sol{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url(/files/sol3.png);
+    background-size: contain;
+
+}
+
+@keyframes dirigir{
+    from{transform: translateX(0px);}
+    to{transform: translateX(950px);}
+}
