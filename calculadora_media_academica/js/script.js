@@ -7,7 +7,6 @@ const nota3 = document.querySelector('#nota3')
 const botao = document.querySelector('#botao')
 const resultado = document.querySelector('#resultado')
 
-
 //evento e funcao
 
 botao.addEventListener('click', ()=>{
@@ -23,10 +22,11 @@ botao.addEventListener('click', ()=>{
     if (media>=5) {
 
         situacao = 'APROVADO!'
-
+        
     } else {
         
         situacao = 'EM RECUPERAÇÃO!'
+
     }
 
     resultado.textContent = `${nome.value}, sua média foi de ${media.toFixed(1)} pontos. Você está ${situacao}`
