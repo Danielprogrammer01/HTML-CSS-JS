@@ -15,6 +15,19 @@
     justify-content: center;
     background: url("https://source.unsplash.com/1920x1080/?landscape&quot");
     background-size: cover;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  h1{
+
+    background: rgb(0, 0, 0);
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
 
@@ -39,9 +52,9 @@
     padding: 10px;
     border-radius: 25px;
     font-size: 18px;
-    background: #7c7c7c2b;
+    background: #7c7c7c7e;
     color: white;
-    width: calc(100% - 50px);
+    width: calc(90% - 50px);
   }
   
   .botao-busca {
@@ -49,9 +62,17 @@
     outline: none;
     padding: 10px;
     border-radius: 50px;
-    background: #ebd6d62b;
+    background: #8a8a8a;
     cursor: pointer;
     float: right;
+    color: white;
+  }
+
+  .botao-busca:hover {
+
+    transform: scale(1.1);
+    background: #ffffff83;
+
   }
   
   .img-busca {
@@ -85,4 +106,19 @@
   
   .texto-previsao{
       text-transform: capitalize;
+  }
+
+  @media (max-width: 600px){
+
+
+    h1{
+
+      width: 85%;
+      font-size: 25px;
+    }
+    .caixa-maior {
+  
+      width: 80%; /*Largura tela menores*/
+     
+    }
   }
